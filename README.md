@@ -4,8 +4,8 @@ This project is based on creating a hospital management dataset using Python and
 I created five main tables:
 1. Hospitals – Contains details like hospital ID and name.
 2. Patients – 1,00,000 fake patient records with admission and discharge dates.
-3. Diagnoses – Each patient has 2 disease records such as Flu, Asthma, or COVID-19.
-4. Treatments – Each patient has 5 medicine records including name, dosage time, and duration.
+3. Diagnoses – Each patient has 2 disease records such as cancer, Diabetes, TB, Malaria, covid_19.
+4. Treatments – Each patient has 5 medicine records including  Paracetamol, Doxorubici , Cyclophosphamide, 5-Fluorouracil, Metformin.
 5. Payments – Includes payment mode (cash/credit) and amount paid.
 After creating the data in Python, I used `pyodbc` to connect with SQL Server and insert all the tables into a database. The dataset is useful for testing SQL queries, creating dashboards, or even building ML models in the healthcare domain.
 
